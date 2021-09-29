@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #000;
+    background: #fff;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -24,7 +24,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -38,16 +37,17 @@
     height: 100vh;
     overflow: hidden; }
   .menu-nav {
+    opacity: 0.9;
     margin: 0;
     padding: 0;
-    background: #ba0f27;
+    background: #353232;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #d2112c;
+    background: rgba(66, 62, 63, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -72,7 +72,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -94,8 +94,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #d2112c;
-  color: #000;
+  background: #423e3f;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(210, 17, 44, 0.4); }
+      background: rgba(66, 62, 63, 0.4); }
 
 h1,
 h2,
@@ -128,7 +128,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(219, 18, 46, 0.5); }
+    background: rgba(71, 67, 68, 0.5); }
 
 a {
   color: #fff;
@@ -148,10 +148,10 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #0078ac;
-        transition: all 0.5s ease-out; }
+        color: #0078ac; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -160,7 +160,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -177,7 +177,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #ea1331;
+    background: #4f4a4c;
     padding: 0.5rem;
     border-bottom: #0078ac 5px solid; }
 
@@ -226,14 +226,14 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #fde5e8;
+  background: #c1bebf;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #a30d22;
-  color: #000;
+  background: #282526;
+  color: #fff;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
