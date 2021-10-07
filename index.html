@@ -1,71 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/904081110f.js" crossorigin="anonymous"></script>
-    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-WMKZP82"></script>
-    <link rel="stylesheet" href="dist\css/main.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209193251-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-209193251-1');
-    </script>
-    <title>Welcome To My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/904081110f.js" crossorigin="anonymous"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="dist/css/main.css">
+  <title>Robert Veivers Portfolio Website</title>
+  
 </head>
-<body id="bg-img">
+<body>
     <header>
-        <!-- Menu Button line -->
-        <div class="menu-btn">
-            <div class="btn-line"></div> 
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
-
-        <div class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
-            </div>
-            <ul class="menu-nav">
-                <li class="nav-item current">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="work.html" class="nav-link">My Work</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/" class="nav-link">How to Reach Me</a>
-                </li>
-            </ul>
-        </div>
+                <!-- Menu Button line -->
+                <div class="menu-btn">
+                    <div class="btn-line"></div> 
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+                </div>
+        
+                <div class="menu">
+                    <div class="menu-branding">
+                        <div class="portrait"></div>
+                    </div>
+                    <ul class="menu-nav">
+                        <li class="nav-item current">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="work.html" class="nav-link">My Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">How to Reach Me</a>
+                        </li>
+                    </ul>
+                </div>
     </header>
+  <div class="container-all">
+    <div class="welcome" id="home">
+      <h1>Robert Veivers<span>Software</span></h1>
+    </div>
 
-    <main id="home">
-        <h1 class="lg-heading">
-            Robert <span class="text-secondary">Veivers</span>
-        </h1>
-        <h2 class="sm-heading">
-            Software, Electrical, Finance and Economics
-        </h2>
-        <div class="icons">
-            <a href="https://www.linkedin.com/in/rveivers/" target="_blank">
-               <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://github.com/robbieveivers" target="_blank">
-                <i class="fab fa-github fa-2x"></i>
-             </a>
-        </div>
-    </main>
+    <section class="intro">
+      <div class="intro-left">
+        <img src="dist/img/welcome-01.png" alt="a laptop on a wood table">
+      </div>
+      <div class="intro-middle">
+        <h2>Making it happen</h2>
+        <p>I am a computer and software engineering student with a strong passion for creating great user experiences. I take pride in my innovative and
+          creative problem-solving ability and strive in a high communicative environment.
+          </p>
+      </div>
+      <div class="intro-right">
+        <img src="dist/img/welcome-02.png" alt="two computers and a laptop on a table">
+      </div>
+    </section>
 
-    <script src="js/main.js"></script>
-</body>
+    <section class="about-me" id="about">
+      <img class="about-img" src="dist/img/headshot.jpg" alt="A picture of Robert Veivers">
+      <h1 class="about-title">Robert Veivers</h1>
+      <h2 class="about-subtitle">Computer & Software Engineer</h2>
+      <div class="about-text">
+        <p>I am a computer and software engineering student with a strong passion for software and 
+          finance. Apart from studying, I have worked in various roles, from hospitality to Defence. I 
+          am also the treasurer of the QUT EESS (Electrical Engineering Student Society).</p>
+        <p>Growing up in a regional town called Kingaroy, I always aspired to make it to university. I 
+          wanted to become a software engineer as I was always tinkering with computers from a 
+          young age. I have also had an excellent work ethic. As soon as I got a job at 14, I saved up to 
+          $1000 to build my first desktop computer back in 2014. This was the defining point for me 
+          ultimately choosing computer and software.</p>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h1>My Work </h1>
+      <div class="portfolio-items">
+
+        <!-- Portfolio item 1 -->
+        <figure class="portfolio-item">
+          <img class="portfolio-image" src="dist/img/portfolio-01.jpg" alt="portfolio item">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-desc">A short description could go right here</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+          
+          <!-- Portfolio modal 1 -->
+          <div class="portfolio-modal">
+            <button class="modal-close">
+              <svg x="0px" y="0px"
+                viewBox="0 0 30 17" height="17" width="30">
+                <g transform="translate(-15 -15)">
+                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                35.8,16.5 37,17.7 	"/>
+                </g>
+            </svg>
+           </button>
+            <div class="portfolio-header header-one">
+              <div class="portfolio-title-box">
+                <h2 class="portfolio-title">Project Name</h2>    
+                <p class="portfolio-subtitle">Subtitle goes here</p>
+              </div>
+            </div> <!-- / portfolio-header -->
+            <div class="portfolio-content">
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <img class="portfolio-full-width" src="dist/img/portfolio-01.jpg" alt="an image"> 
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <img class="portfolio-pull-left" src="dist/img/portfolio-01.jpg" alt="an image"> 
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <img class="portfolio-pull-right" src="dist/img/portfolio-01.jpg" alt="an image"> 
+              </div>
+          </div>
+          <!-- /modal -->
+        </figure>
+
+        <!-- Portfolio item 2 -->
+        <figure class="portfolio-item">
+            <img class="portfolio-image" src="dist/img/portfolio-02.jpg" alt="portfolio item">
+            <figcaption>
+              <h2 class="portfolio-title">Project Name</h2>
+              <p class="portfolio-desc">A short description could go right here</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+            <div class="portfolio-modal">
+                <button class="modal-close">
+                  <svg x="0px" y="0px"
+                    viewBox="0 0 30 17" height="17" width="30">
+                    <g transform="translate(-15 -15)">
+                    <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                    35.8,16.5 37,17.7 	"/>
+                    </g>
+                </svg>
+               </button>
+                <div class="portfolio-header header-two">
+                  <div class="portfolio-title-box">
+                    <h2 class="portfolio-title">Project Name 2</h2>    
+                    <p class="portfolio-subtitle">Subtitle goes here</p>
+                  </div>
+                </div> <!-- / portfolio-header -->
+                <div class="portfolio-content">
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-full-width" src="dist/img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-left" src="dist/img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-right" src="dist/img/portfolio-02.jpg" alt="an image"> 
+                  </div>
+              </div>
+          </figure>
+
+          <!-- Portfolio item 3 -->
+        <figure class="portfolio-item">
+            <img class="portfolio-image" src="dist/img/portfolio-03.jpg" alt="portfolio item">
+            <figcaption>
+              <h2 class="portfolio-title">Project Name</h2>
+              <p class="portfolio-desc">A short description could go right here</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+          </figure>
+
+          <!-- Portfolio item 4 -->
+        <figure class="portfolio-item">
+            <img class="portfolio-image" src="dist/img/portfolio-04.jpg" alt="portfolio item">
+            <figcaption>
+              <h2 class="portfolio-title">Project Name</h2>
+              <p class="portfolio-desc">A short description could go right here</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+          </figure>
+
+          <!-- Portfolio item 5 -->
+        <figure class="portfolio-item featured">
+            <img class="portfolio-image" src="dist/img/portfolio-05.jpg" alt="portfolio item">
+            <figcaption>
+              <h2 class="portfolio-title">Project Name</h2>
+              <p class="portfolio-desc">A short description could go right here</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+          </figure>
+
+      </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+      <h1>Contact me</h1>
+      <form action="">
+        <label class="name" class="name">Name:
+            <input type="text" id="name">
+        </label>
+        
+        <label class="email" class="email">Email:
+          <input type="email" id="email">
+        </label>
+
+        <label message="message" class="message">Message:
+          <textarea name="" id="message"></textarea>
+        </label>
+
+        <input class="button form-button" type="submit" value="SEND">
+
+      </form>
+    </section>
+
+    <footer>
+      <p>Follow me on social media</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/rveivers/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+         </a>
+         <a href="https://github.com/robbieveivers" target="_blank">
+             <i class="fab fa-github fa-2x"></i>
+          </a>    
+      </div>
+      
+      <p class="copyright">Copyright 2021 Robert Veivers</p>
+    </footer>
+  </div>
+  <script src="js/nav.js"></script>
+  <script src="js/model.js"></script>
+  
+</body> 
 </html>
