@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps|Spline+Sans:wght@500|Inter|Encode+Sans");
 
-$ff-s: "Merriweather", serif;
+$ff-sx: "Merriweather", serif;
+$ff-s: "Encode Sans", serif;
 $ff-ss: "Six Caps", sans-serif;
+$ff-sss: "Spline Sans", sans-serif;
+$ff-ssss: "Inter", sans-serif;
 
 $fw-n: 400;
 $fw-b: 900;
@@ -18,6 +21,6 @@ $fw-b: 900;
   color: $color;
   text-transform: $tt;
   line-height: $lh;
-  font-family: $ff-ss;
+  font-family: $ff-ssss;
   font-weight: $fw-n;
 }
