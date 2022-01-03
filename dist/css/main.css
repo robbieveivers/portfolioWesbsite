@@ -374,7 +374,6 @@ h2 {
   font-weight: 400; }
 
 .welcome {
-  background-image: url(../img/header-bg.png);
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -429,7 +428,7 @@ h2 {
   @supports (display: grid) {
     .intro {
       display: grid;
-      grid-template-columns: minmax(4em, 1fr) minmax(auto, 30em) minmax(4em, 1fr); } }
+      grid-template-columns: minmax(5em, 1fr) minmax(auto, 30em) minmax(5em, 1fr); } }
 
 .intro-middle {
   background: #223843;
@@ -444,7 +443,7 @@ h2 {
   object-fit: cover;
   height: 100%;
   width: 100%;
-  display: block; }
+  display: flex; }
 
 .about-me {
   width: 90%;
@@ -536,7 +535,7 @@ h2 {
 
 .portfolio-title {
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: auto; }
 
 .portfolio-desc {
@@ -567,7 +566,7 @@ h2 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2; }
   .featured .portfolio-title {
-    font-size: 5rem; }
+    font-size: 4rem; }
   .featured .portfolio-desc {
     display: block; } }
 
